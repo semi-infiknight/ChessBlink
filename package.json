@@ -1,0 +1,39 @@
+{
+  "name": "checkmate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.19.4",
+    "@metaplex-foundation/mpl-bubblegum": "^0.7.0",
+    "@metaplex-foundation/mpl-token-metadata": "^2.12.0",
+    "@pinata/sdk": "^2.1.0",
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/actions": "1.6.1",
+    "@solana/spl-account-compression": "^0.1.8",
+    "@solana/spl-token": "^0.4.8",
+    "@solana/web3.js": "^1.95.0",
+    "bs58": "^6.0.0",
+    "google-auth-library": "^9.13.0",
+    "mongoose": "^8.5.1",
+    "next": "14.2.5",
+    "openai": "^4.52.7",
+    "react": "^18",
+    "react-dom": "^18",
+    "replicate": "^0.31.1"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
